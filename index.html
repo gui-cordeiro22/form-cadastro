@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--CSS Padrão-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="JS/bootstrap.min.js"></script>
+
+    <title>&raquo; GranX - Processo seletivo</title>
+</head>
+<body>
+    <div class="card"> <!--Card do topo do site-->
+        <img src="imagens/capa form - cadastro.jpg" class="card-img-top" alt="">
+        <div class="card-body bg-dark text-light">
+            <h3 class="text-monospace">Formulário de cadastro - Processo seletivo</h3>
+            <p>A empresa GranX, que atua no ramo de construção de peças e componentes para aviões, está buscando novos colaboradores e pessoas que estejam interessadas em gerar valor para empresa, crescer profissionalmente e que estejam buscando novos desafios. - Você quer participar dessa jornada?</p>
+
+            <p>Aos interessados, basta preencher o formulário abaixo e entraremos em contato para darmos sequência ao processo seletivo.</p>
+
+            <h6>Boa sorte a todos, até breve!</h6>
+        </div>
+    </div>
+    
+    <br>
+
+    <div class="form-group mx-3"> <!--Início do formulário-->
+        <input type="text" class="form-control" placeholder="Nome completo">
+        <br>
+        
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Data de nascimento</span>
+            </div>
+            <input type="date" class="form-control">
+
+            <div class="input-group-prepend">
+                <span class="input-group-text">Gênero</span>
+            </div>
+            <select class="form-control">
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Prefiro não informar</option>
+            </select>
+        </div>
+        
+        <br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">&commat;</span>
+            </div>
+            <input type="email" class="form-control" placeholder="exemplo@exemplo.com.br">
+            
+            <div class="input-group-prepend">
+                <span class="input-group-text">&phone; +55</span>
+            </div>
+            <input type="text" class="form-control" placeholder="(xx) xxxxx-xxxx">
+        </div>
+        <br>
+        <div class="input-group">
+        <input type="text" class="form-control" placeholder="Endereço">
+            <div class="input-group-text">
+                <span>Estado</span>
+            </div>        
+            <select class="form-control">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+                <option value="DF">DF</option>
+            </select>
+        </div>
+        <br>
+        <p>Descreva a sua última experiência profissional:</p>
+        <textarea class="form-control" cols="30" rows="10" placeholder="Funções, competências e tudo que achar relevante"></textarea>
+        <br>
+        <p>Insira abaixo o seu currículo, para que possamos avaliar:</p>
+        <div class="custom-file">
+            <label class="custom-file-label">Selecione o arquivo</label>
+            <input type="file" class="custom-file-input">
+        </div>
+        <br>
+        <br>
+        <button class="btn btn-block btn-outline-dark">Enviar</button>
+
+        <small class="form-text text-success">Obrigado por participar!</small>
+
+</body>
+</html>
